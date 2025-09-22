@@ -1,35 +1,37 @@
 📝 Todoly API
 
-Backend API for the Todoly Task Management App, built with Node.js, Express, and MongoDB.
-Supports CRUD operations for tasks with calendar functionality.
+Backend API for the Todoly Task Management App, built with Node.js, Express, and MongoDB. Supports CRUD operations for tasks with calendar functionality.
 
 <p align="center"> <img src="https://img.shields.io/badge/Node.js-v18-green?style=flat-square" alt="Node.js"/> <img src="https://img.shields.io/badge/Express-v4.18.2-blue?style=flat-square" alt="Express"/> <img src="https://img.shields.io/badge/MongoDB-v6.0-success?style=flat-square" alt="MongoDB"/> </p>
 ✨ Features
 
-✅ CRUD operations for tasks
+CRUD operations for tasks
 
-✅ Task fields: title, description, status, priority, tags, date, start/end time
+Task fields: title, description, status, priority, tags, date, start/end time
 
-✅ Supports calendar-friendly date/time
+Calendar-friendly date/time support
 
-✅ Clean and scalable project structure
+Clean and scalable project structure
 
 ⚙️ Installation
-1️⃣ Clone the repository
+
+Clone the repository
+
 git clone https://github.com/your-username/todoly-api.git
 cd todoly-api
 
-2️⃣ Install dependencies
+Install dependencies
+
 npm install
 
-3️⃣ Configure environment variables
-
+Configure environment variables
 Create a .env file at the root:
 
 MONGO_URI=mongodb://localhost:27017/manage-task
 PORT=5000
 
-4️⃣ Start the server
+Start the server
+
 npm run start
 
 # or if using nodemon
@@ -46,7 +48,9 @@ GET /api/tasks/:id Get a task by ID
 PUT /api/tasks/:id Update a task by ID
 DELETE /api/tasks/:id Delete a task by ID
 💾 Dummy Data Example
+
 POST /api/tasks
+
 {
 "title": "Finish React frontend",
 "description": "Complete the calendar and to-do list views",
@@ -62,7 +66,7 @@ Use Postman or curl to test the API.
 
 📌 Notes
 
-Ensure MongoDB is running locally.
+Make sure MongoDB is running locally.
 
 Date and time fields are strings:
 
