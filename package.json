@@ -1,0 +1,31 @@
+{
+  "name": "todoly-api",
+  "version": "1.0.0",
+  "description": "Backend API built with Node.js and Express. Provides RESTful endpoints for managing tasks and schedules. Includes basic error handling and modular routing for easy scalability.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toihid/todoly-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toihid/todoly-api/issues"
+  },
+  "homepage": "https://github.com/toihid/todoly-api#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
